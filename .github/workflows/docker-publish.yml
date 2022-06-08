@@ -72,5 +72,5 @@ jobs:
         uses: behesse/dockerhub-description@v3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_TOKEN }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
           repository: behesse/eco-docker-autoupdate
